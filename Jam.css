@@ -52,3 +52,22 @@ font-weight: bold;
 margin-top: 25px;
 padding: 15px 30px;
 }
+
+#what { 
+    background-color: rgb(230, 255, 255, 0.6);
+Padding: 15px 30px;
+    text-align: center;
+    color:darkcyan
+    }
+
+#why {
+    background-color: rgb(182, 234, 211, 0.5);
+    padding: 15px 30px;
+    text-align: center; 
+       color:darkcyan
+}
+
+#where{ 
+
+
+}
