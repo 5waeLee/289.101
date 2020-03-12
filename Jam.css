@@ -27,7 +27,12 @@ padding: 20px 0;
 text-align: center;
 word-spacing: 2em;
 }
+#sponsor_logos { 
+ height: 500px;
+ width: 500px;
 
+     
+}
 #header {
 text-align: center;
 margin-top: 40px;
@@ -55,7 +60,7 @@ padding: 15px 30px;
 
 #what { 
     background-color: rgb(230, 255, 255, 0.6);
-Padding: 15px 30px;
+    Padding: 15px 30px;
     text-align: center;
     color:darkcyan
     }
@@ -68,6 +73,20 @@ Padding: 15px 30px;
 }
 
 #where{ 
+    background-image: url('img/map.gif')
 
+}
 
+#when{
+    background-color: rgb(182, 234, 211, 0.5);
+    padding: 15px 30px;
+    text-align: center; 
+       color:darkcyan
+}
+
+#who{ 
+    background-color: rgb(182, 234, 211, 0.5);
+    padding: 15px 30px;
+    text-align: center; 
+       color:darkcyan 
 }
