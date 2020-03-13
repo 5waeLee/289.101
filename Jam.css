@@ -81,10 +81,9 @@ padding: 15px 30px;
 
 #where{ 
     background-image: url('img/map.gif');
-    background-size: 800px, auto;
-    padding: 80px 0; 
-    background-position: center 5000px; 
-    text-align: right; 
+    background-size: 800px, 738px;
+    padding: 100px 500px ;  
+    text-align: center; 
     color: rgb(255, 102, 204);
         
 }
@@ -100,8 +99,16 @@ padding: 15px 30px;
 }
 
 #who{ 
-    background-color: rgb(182, 234, 211, 0.5);
+    background-color: rgb(242, 242, 242);
     padding: 15px 30px;
+    height: 400px;
+    margin: auto;
     text-align: center; 
        color:darkcyan 
+}
+#footer{
+    height: 100px;
+    width: 100px; 
+    padding: 10px 1000px;
+    
 }
