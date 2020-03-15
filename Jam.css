@@ -81,11 +81,12 @@ padding: 15px 30px;
 
 #where{ 
     background-image: url('img/map.gif');
-    background-size: 800px, 738px;
-    padding: 100px 500px ;  
+    background-size: auto; 
+    padding: 200px 500px ;  
     text-align: center; 
     color: rgb(255, 102, 204);
-        
+    margin: auto; 
+    
 }
 
 #when{
@@ -107,8 +108,27 @@ padding: 15px 30px;
        color:darkcyan 
 }
 #footer{
+    
     height: 100px;
     width: 100px; 
-    padding: 10px 1000px;
+    padding: 0px 0px; 
+    margin-right: 50px; 
+    position: absolute; 
+    margin-left: 700px;
+ 
+    
+}
+#face{
+    
+    height: 100px; 
+    width: 100px;
+    position: absolute; 
+    margin-left: 950px; 
+}
+#itch {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 1200px;
     
 }
