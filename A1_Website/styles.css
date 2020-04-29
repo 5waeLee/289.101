@@ -1,0 +1,14 @@
+<style> 
+html, body {
+            margin: 0;
+            scroll-behavior: smooth;
+            }
+* { outline 1px solid black}
+
+#container { 
+max-width: 1000px; 
+margin: auto; 
+display: grid;
+grid-template-columns: 1fr 1fr
+background-color: grey}
+</style> 
