@@ -65,7 +65,7 @@ max-width: 950px;
     max-height: 400px;
     }
 .GAP{ 
-background-color:#2D2F3B;
+background-color: #8D7F7B;
 text-align: center;
 margin:auto; 
 max-width: 950px;
@@ -88,7 +88,6 @@ border: 3px solid #4B4E61;
 text-align: center;
 padding-top: 5px; 
 padding-bottom: 3px;
-
 }
 .about {
 max-width: 950px;
@@ -102,4 +101,64 @@ border-bottom: 6px solid #4B4E61;
 padding: 20px; 
 box-sizing: border-box; 
 
+}
+.work{
+background-color:#8D7F7B;
+text-align: center;
+margin:auto; 
+max-width: 950px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 2.95em; 
+color: white;
+border-bottom: 6px solid #4B4E61;
+
+}
+#bar{ 
+    max-width:950px; 
+    margin: auto; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 6px solid #4B4E61;
+    box-sizing: border-box; 
+
+}
+#bar .col{
+border: 3px solid #4B4E61;
+text-align: center;
+padding-top: 5px; 
+padding-bottom: 3px;
+}
+
+.job {
+    max-width: 950px;
+margin: auto; 
+text-align: center;
+display: grid; 
+grid-template-columns: 1fr ;
+background-color: #2D2F3B;
+color: white; 
+border-bottom: 6px solid #4B4E61;
+padding: 20px; 
+box-sizing: border-box; 
+    
+}
+
+.HOBBY {
+background-color:#8D7F7B;
+text-align: center;
+margin:auto; 
+max-width: 950px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 2.95em; 
+color: white;
+border-bottom: 6px solid #4B4E61;
+}
+
+#DJ { 
+max-width: 950px; 
+margin:auto;
+box-sizing:content-box;
+
+    
+    
 }
