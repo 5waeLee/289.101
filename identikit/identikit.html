@@ -52,23 +52,24 @@
     <div id="controls">
         <a id="eyes_up_btn">move eyes up</a>
         <a id="eyes_down_btn">move eyes down</a>
-        <a>move eyes closer together</a>
-        <a>move eyes further apart</a>
-        <a>hollow eyes</a>
+        <a id= "eyes_closer_btn">move eyes closer together</a>
+        <a id= "eyes_further_btn">move eyes further apart</a>
+        <a id= "hollow_eyes_btn">hollow eyes</a>
         <a>solid eyes</a>
-        <a>no right eye</a>
+        <a id="no_right_btn">no right eye</a>
         <a id="mouth_up_btn">move mouth up</a>
         <a id="mouth_down_btn">move mouth down</a>
         <a id="happy_mouth_btn">happy mouth</a>
         <a id="sad_mouth_btn">sad mouth</a>
-        <a id="reset_face">reset face</a>
+        <a id="reset_face_btn">reset face</a>
     </div>
 
     <div id="face">
         <img id="eye_left" src="eye_solid.svg" />
         <img id="eye_right" src="eye_solid.svg" />
         <img id="mouth" src="mouth_happy.svg" />
-        
+   
+      
     </div>
 
     <script>
@@ -109,6 +110,27 @@
         
         //--------------------------------------
         
+        
+        // move eyes closer evetn listener 
+        document.getElementById('eyes_closer_btn').addEventListener('click', function() {
+            eye_left_x += 10;
+            document.getElementById('eye_left').style.left = eye_left_x + 'px'; eye_right_x -= 10;
+            document.getElementById('eye_right').style.left = eye_right_x + 'px';
+              });
+        
+        // move eyes further apart event listener 
+        document.getElementById('eyes_further_btn').addEventListener('click', function() {
+            eye_left_x -= 10;
+            document.getElementById('eye_left').style.left = eye_left_x + 'px'; eye_right_x += 10;
+            document.getElementById('eye_right').style.left = eye_right_x + 'px';
+              });
+        
+        //-----------
+        
+        // no right eye event listener 
+          
+//--------------------------------------------
+        
         // move mouth up event listener
         document.getElementById('mouth_up_btn').addEventListener('click', function() {
             mouth_y -= 10;
@@ -121,6 +143,13 @@
         document.getElementById('mouth_down_btn').addEventListener('click', function(){ mouth_y += 10;
         document.getElementById('mouth').style.top = mouth_y + 'px';
                                                                                     });
+        
+        // ---------------------------------------- 
+        
+        
+        
+        
+        
     </script>
 
 </body>
