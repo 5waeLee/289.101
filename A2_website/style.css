@@ -1,0 +1,95 @@
+
+/* xs devices */
+body { background-color: slategrey}
+
+/* sm devices */
+@media (min-width:576px){ 
+body {background-color: 
+    skyblue}
+  
+}
+
+/* md devices */
+@media (min-width: 768px){ 
+body {background-color: lightblue}
+}
+
+/* lg devices */
+@media (min-width:992px){ 
+body {background-color: lightgray}
+}
+            
+/* xl devices */
+@media (min-width:1200px){ 
+    body {background-color: gray}
+}
+
+
+
+body{
+margin: 0;
+font-family: 'Lato', sans-serif;
+ }
+
+
+html{ 
+scroll-behavior: smooth;}
+
+.blue{ 
+background-color: darkgrey;
+height:  50px;
+color: white;
+font-size: 2.5rem;
+margin: auto; 
+margin-bottom: 20px;
+text-align: center;
+    
+
+}
+
+
+.banner{ 
+align-content: center;
+text-align: center;
+}
+
+.gap2{
+    margin:auto;
+    color: white;
+    text-align: center;
+   
+}
+
+
+.firstcontainer{ 
+color: white;
+background-color:#3fb4ff }
+
+.row_gap{
+    background-color: darkgrey;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.row_gap2{ 
+Padding: 30px;
+    background-color: darkgrey;
+}
+
+#KIT{
+text-align: center;
+
+}
+
+a{ 
+margin: auto;
+color: white;
+text-align: center;
+padding-bottom: 3
+
+}
+
+#parts{
+    text-align: center;
+}
